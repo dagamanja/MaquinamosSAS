@@ -110,25 +110,23 @@
                         contactaremos.¡Juntos construyamos día a día un mejor
                         pais! </h4>
 
-                    <form method="post" action="enviar2.php">
+                    <form id="contac-form" class="contact" name="contact-form" method="post" action="enviar2.php" >
                         <div class="Formulario">
                             <div class="form-group">
-                                <input type="text" placeholder="Nombre" required="required">
+                                <input type="text" placeholder="Nombre" required="required" name="nombre">
                             </div>
                             <div class="form-group">
-                                <input type="email" placeholder="E-mail" required="required">
+                                <input type="email" placeholder="E-mail" required="required" name="email">
                             </div>
                             <div class="form-group">
-                                <input type="tel" placeholder="Número" required="required">
+                                <input type="tel" placeholder="Número" required="required" name="telefono">
                             </div>
                             <div class="form-group">
                                 <input type="file" name="file">
                             </div>
                         </div>
                         <div class="form-group">
-                            <div class="Boton">
-                                <input type="submit" value="Enviar">
-                            </div>
+                            <button type="submit" class="btn_btn-primary">Enviar info</button>
                         </div>
                     </form>
                 </div>
